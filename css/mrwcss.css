@@ -1,0 +1,42 @@
+* {
+	padding: 0px;
+	margin : 0px;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+header {
+	height: 40px;
+	background-color: #000000;
+	border-bottom: solid 1px #61BCE8;
+	background-image: url(../images/hexellence.png);
+}
+
+body {
+	background-color: black;
+	background-image: url(../images/stardust.png);
+}
+
+a:link, a:hover, a:active, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a#brand {
+	margin: 9px 0 0 0;
+	font-size: 22px;
+	line-height: 40px;
+}
+
+div.main0 > a {
+	margin: 5px;
+	color: #61BCE8;
+	text-decoration: none;
+}
+
+div.main0 > p.reading {
+	font-family: sans-serif;
+	font-size: 15px;
+}
