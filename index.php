@@ -50,7 +50,9 @@
 	</footer>
 
 	<script data-main="js/app/MRW_gateway" src="js/lib/requirejs.min.js"></script>
-	<script type="text/javascript">require(['MRW_main'],function(){})</script>
+	<script type="text/javascript">require(['MRW_main'],function(){
+		
+	})</script>
 
 	<?php include_once("analyticstracking.php") ?>
 	
