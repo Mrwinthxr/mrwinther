@@ -19,25 +19,39 @@
 
 	<header class="fluid-container">
 			<div class="container">
-				<a id="brand" href="#">
-					Mads R Winther
-				</a>
+				<div id="div_brand" class="col-md-3">
+					<a id="a_brand" href="#">Mads R Winther</a>
+				</div>
+				<div class="col-md-7">
+				</div>
+				<div id="div_ext_links" class="col-md-2">
+					<a class="a_ext_links" href="https://dk.linkedin.com/in/mads-rossing-winther-44a767a8">
+						<img id="img_linkedIn" src="images/icons/In-White-34px-R.png">
+					</a>
+					<a class="a_ext_links" href="https://github.com/Mrwinthxr">
+						<img id="img_linkedIn" src="images/icons/GitHub-Mark-Light-32px.png">
+					</a>
+				</div>
 			</div>
 	</header>
 
 	<div class="main0 container">
 
-		<p class="reading">This domain is mainly for testing and hosting projects. <br/> 
-											 Some examples of completed projects shown below.</p>
+		<div id="content">
 
-		<h4>- Major Projects -</h4>
-		<!--<img src="images/EWSlogo.png">-->
-		<a href="http://elliottwavesurfer.com/">Elliottwavesurfer.com</a>
-		<p class="reading">A commercial website which delivers stock- and currency analyses.</p> 
+			<p class="reading">This domain is mainly for testing and hosting projects. <br/> 
+												 Some examples of completed projects shown below.</p>
 
-		<h4>- Minor Projects -</h4>
-		<a href="http://mrwinther.dk/projects/KiwiBlog/">KiwiBlog</a>
-		<p class="reading">A small project with AngularJS and own responsive grid system.</p>
+			<h4>- Major Projects -</h4>
+			<!--<img src="images/EWSlogo.png">-->
+			<a href="http://elliottwavesurfer.com/">Elliottwavesurfer.com</a>
+			<p class="reading">A commercial website which delivers stock- and currency analyses.</p> 
+
+			<h4>- Minor Projects -</h4>
+			<a href="http://mrwinther.dk/projects/KiwiBlog/">KiwiBlog</a>
+			<p class="reading">A small project with AngularJS and own responsive grid system.</p>
+
+		</div>
 
 	</div>
 
@@ -45,14 +59,16 @@
 
 	</div>
 
+	<canvas id="planet_canvas" class="fluid-container" width="1650" height="950">
+
+	</canvas>
+
 	<footer class="container">
 		
 	</footer>
 
 	<script data-main="js/app/MRW_gateway" src="js/lib/requirejs.min.js"></script>
-	<script type="text/javascript">require(['MRW_main'],function(){
-		
-	})</script>
+	<script type="text/javascript">require(['MRW_main'],function(){})</script>
 
 	<?php include_once("analyticstracking.php") ?>
 	
